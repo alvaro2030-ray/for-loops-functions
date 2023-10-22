@@ -12,22 +12,16 @@ export function getClientWithGreatestBalance(array) {
   var personOne;
   for(let i in array){
     listBalance.push(array[i].balance);
-
     if(listBalance[i]>= maxBalance){
       maxBalance = listBalance[i];
-
       if(array[i].balance === maxBalance){
-       personOne = array[i];
+        personOne = array[i];
       }
     }
-
   }
   person.push(personOne);
   return person;
 }
-import {bankAccounts} from '../data/data.js';
-getClientWithGreatestBalance(bankAccounts);
-
 // === TEST YOURSELF ===
 // Once you're finished run the test with "npm run test-8"
 // If the test has all tests passed, switch to the next exercise file

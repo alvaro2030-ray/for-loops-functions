@@ -10,17 +10,11 @@ export function concatArrays(arr1, arr2) {
   for(let i in arr1){
       arr3.push(arr1[i]);
     }
-
     for(let j in arr2){
       arr3.push(arr2[j]);
     }
-    
-  
   return arr3;
 }
-//concatArrays([1, 2, 3], [4, 5]);
-
-
 // === TEST YOURSELF ===
 // Once you're finished run the test with "npm run test-15"
 // If the test has all tests passed, switch to the next exercise file

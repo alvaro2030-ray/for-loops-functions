@@ -21,10 +21,10 @@ export function separateNamesWithAFromRest(array) {
     if(!hasA){
       arrayNoA.push(array[i]);
     }
-    }
-    multiArray.push(arrayA, arrayNoA);
-    return multiArray;
   }
+  multiArray.push(arrayA, arrayNoA);
+  return multiArray;
+}
 
 // === TEST YOURSELF ===
 // Once you're finished run the test with "npm run test-20"

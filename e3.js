@@ -11,19 +11,14 @@
 export  function getAverage(array) {
   // Your code goes here...
   var sum = 0;
-   var added;
-   var aver1;
+  var added;
+  var aver1;
   for (let i = 0; i < array.length; i++) {
     added = sum += array[i];
     aver1 = added/array.length;
   }
   return aver1;
-
 }
-getAverage([20, 22, 24, 26]);
-
-
-
 /** 
  * PART 2
  * Create a getStringSum(str) function that returns the sum of any integers that are in the string.

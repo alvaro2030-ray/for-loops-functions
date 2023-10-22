@@ -5,19 +5,15 @@
 
 export function getClientWithNoMoney(array) {
   // Your code goes here...
- var test = 0;
+  var test = 0;
   var nameAccount = [];
-
-    for (let i = 0; i < array.length; i++) {
-      if(array[i].balance == 0){
-  nameAccount.push(array[i].name);
-  }
+  for (let i = 0; i < array.length; i++) {
+    if(array[i].balance == 0){
+    nameAccount.push(array[i].name);
+    }
   }
   return nameAccount;
 }
-  import {bankAccounts} from '../data/data.js';
-  getClientWithNoMoney(bankAccounts);
-  
 // === TEST YOURSELF ===
 // Once you're finished run the test with "npm run test-6"
 // If the test has all tests passed, switch to the next exercise file

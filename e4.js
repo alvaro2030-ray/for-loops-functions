@@ -13,8 +13,6 @@ export function findMinValueInArray(array) {
   }
   return min;
 }
-findMinValueInArray([20, 24, 19, 26]);
-
 export function findMaxValueInArray(array) {
   // Your code goes here...
   var max = -Infinity;
@@ -25,7 +23,6 @@ export function findMaxValueInArray(array) {
   }
   return max;
 }
-findMaxValueInArray([20, 24, 26, 19]);
 // === TEST YOURSELF ===
 // Once you're finished run the test with "npm run test-4"
 // If the test has all tests passed, switch to the next exercise file

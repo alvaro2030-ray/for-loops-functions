@@ -17,15 +17,13 @@ export function getAllDepositsGreaterThanOneHundred(array) {
       for(let n in list){
         now = list[n];
       }
-    if(now > 100){
-      person.push(now);
-    }
+      if(now > 100){
+        person.push(now);
+      }
     }
   }
 return person;
 }
-import {bankAccounts} from '../data/data.js';
-getAllDepositsGreaterThanOneHundred(bankAccounts)
 // === TEST YOURSELF ===
 // Once you're finished run the test with "npm run test-12"
 // If the test has all tests passed, switch to the next exercise file

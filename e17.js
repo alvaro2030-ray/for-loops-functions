@@ -7,7 +7,7 @@
 
 export function doesArrayInclude(array, value) {
   // Your code goes here...
-   for(let i in array){
+  for(let i in array){
     var value1 = false;
     if(array[i] === value){
       value1 = true;
@@ -15,12 +15,9 @@ export function doesArrayInclude(array, value) {
     if(array[i] !== value){
       value1 = false;
     } 
-   }
-   return value1;
+  }
+  return value1;
 }
-
-
-
 // === TEST YOURSELF ===
 // Once you're finished run the test with "npm run test-17"
 // If the test has all tests passed, switch to the next exercise file

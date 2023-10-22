@@ -7,16 +7,11 @@
 export function getAllClientNames(array) {
   // Your code goes here...
   var nameAccount = [];
-for (let i = 0; i < array.length; i++) {
-
-nameAccount.push(array[i].name);
+  for (let i = 0; i < array.length; i++) {
+    nameAccount.push(array[i].name);
+  }
+  return nameAccount;
 }
-return nameAccount;
-}
-import {bankAccounts} from '../data/data.js';
-getAllClientNames(bankAccounts);
-
-
 // === TEST YOURSELF ===
 // Once you're finished run the test with "npm run test-5"
 // If the test has all tests passed, switch to the next exercise file

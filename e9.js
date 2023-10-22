@@ -9,19 +9,13 @@ export function getClientsWithBalanceOverOneHundred(array) {
   var num = [];
   var num2 =[];
   for (let i in array){
-num = array[i].balance;
-if(num > 100){
-  num2.push(array[i]);
-
-}
+    num = array[i].balance;
+    if(num > 100){
+      num2.push(array[i]);
+    }
   }
   return num2;
 }
-import {bankAccounts} from '../data/data.js';
-getClientsWithBalanceOverOneHundred(bankAccounts);
-
-
-
 // === TEST YOURSELF ===
 // Once you're finished run the test with "npm run test-9"
 // If the test has all tests passed, switch to the next exercise file

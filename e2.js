@@ -4,15 +4,15 @@
 
 export function getNumbersWithSquareRoots(max) {
   // Your code goes here...
-    var squareNum;
+  var squareNum;
   var squareArray =[];
-    for (let i =0; i < max; i ++){
-      squareNum = Math.sqrt(i);
-      if(Number.isInteger(squareNum)){ 
-        squareArray.push(i);  
+  for (let i =0; i < max; i ++){
+    squareNum = Math.sqrt(i);
+    if(Number.isInteger(squareNum)){ 
+      squareArray.push(i);  
     }
-    }
-    return squareArray;
+  }
+  return squareArray;
   }
   getNumbersWithSquareRoots(50);
   getNumbersWithSquareRoots(200);

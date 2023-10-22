@@ -9,13 +9,10 @@ export function reverseArray(array) {
   var num = [];
   for(let i = array.length; i > 0; i--){
     num.push(i);
-    
   }
   return num;
 }
 reverseArray([1, 2, 3, 4]);
-
-
 // === TEST YOURSELF ===
 // Once you're finished run the test with "npm run test-19"
 // If the test has all tests passed, switch to the next exercise file
